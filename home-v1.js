@@ -1,2 +1,0 @@
-function adBlockDetected(){var isAdblock=true;if(isAdblock==true){$("div.top-message").html('<span>Xin vui lĂ²ng táº¯t chÆ°Æ¡ng trĂ¬nh cháº·n quáº£ng cĂ¡o Ä‘á»ƒ chĂºng tĂ´i cĂ³ thá»ƒ phá»¥c vá»¥ báº¡n tá»‘t hÆ¡n.</span>').css({"display":"block"});console.log("AdBlock: Enabled");}else{adBlockNotDetected();}}
-function checkAdblock(){console.log("Call function FuckAdblock");if(typeof fuckAdBlock==='undefined'){adBlockDetected();}else{fuckAdBlock.setOption({debug:true});fuckAdBlock.onDetected(adBlockDetected).onNotDetected(adBlockNotDetected);}}
