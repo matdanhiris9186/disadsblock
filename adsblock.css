@@ -1,0 +1,118 @@
+/* Adi.js CSS ====== */
+
+.jquery-adi {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: rgba(0, 0, 0, .75);
+  z-index: 999999;
+}
+
+.jquery-adi_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 320px;
+  padding: 30px 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  margin-left: -160px;
+  box-sizing: border-box;
+}
+
+.jquery-adi_content h2,
+.jquery-adi_content p,
+.jquery-adi_content button {
+  padding: 0;
+  margin: 0;
+}
+
+.jquery-adi_content button {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  border: 0;
+  outline: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url('/web/20171126052942im_/http://phimhayplus.com/statics/defaultv2/images/cancel.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.jquery-adi_content h2 {
+  color: #e76e65;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.jquery-adi_content h2:before {
+  content: "";
+  width: 128px;
+  height: 128px;
+  background-color: #e76e65;
+  background-image: url('/web/20171126052942im_/http://phimhayplus.com/statics/defaultv2/images/in-love.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+}
+
+.jquery-adi_content p {
+  font-size: 14px;
+  color: #989898;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+/* Dark Theme ====== */
+
+.jquery-adi.dark .jquery-adi_content {
+  background: #1F1F1F;
+}
+
+.jquery-adi.dark .jquery-adi_content h2 {
+  color: rgb(255, 25, 25);
+}
+
+.jquery-adi.dark .jquery-adi_content h2:before {
+  background-color: #FF4335;
+  background-position: bottom center;
+}
+
+.jquery-adi.dark .jquery-adi_content p {
+  color: #ffffff;
+}
+
+.jquery-adi.dark .jquery-adi_content button {
+  background-position: bottom left;
+}
+/* End Adi.js CSS ====== */
+/*
+     FILE ARCHIVED ON 05:29:42 Nov 26, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:42:06 Jul 02, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 323.687 (3)
+  esindex: 0.01
+  captures_list: 348.608
+  CDXLines.iter: 18.48 (3)
+  PetaboxLoader3.datanode: 364.077 (4)
+  exclusion.robots: 0.323
+  exclusion.robots.policy: 0.303
+  RedisCDXSource: 2.253
+  PetaboxLoader3.resolve: 1006.783
+  load_resource: 1074.059
+*/
